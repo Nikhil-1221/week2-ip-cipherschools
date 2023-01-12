@@ -1,0 +1,30 @@
+/* this is paragraph styling */
+p{
+    color: blue;
+    background-color:bisque;
+    width: 20px;/*Absolute units */
+    width: 70vw;/* Relative units */
+    /* the numbered values with no units */
+    margin: 0;
+    line-height: 1.2;
+}
+
+/* Function values */
+
+div{
+    /* transform: scale(1.2); */
+    /* transform: rotate(90deg); */
+    width: cal(80%-20px);
+    height: 100vh;
+    background-image: url("abc.jpg");
+}
+
+/* A shorthand property */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color: blue;
+}
